@@ -1,0 +1,167 @@
+#title {
+  color: #ffffff;
+  background-color: #FF4c68;
+}
+
+.container-fluid {
+  padding: 0 15% 6%;
+}
+
+h1 {
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: "Montserrat-Bold";
+  font-size: 3.5rem;
+}
+
+/* Navigatio bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+/* Download buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title image */
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%
+}
+
+/* Features */
+#features {
+  padding-top: 60px;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+/* Font Awesome */
+.center {
+  text-align: center;
+}
+
+.icon {
+  color: #FF4c68;
+  font-size: 2.5rem;
+  padding-top: 10%;
+  padding-bottom: 20%;
+}
+
+.icon:hover {
+  color: #9a0200;
+}
+
+/* Testimonials section */
+#testimonials {
+  background-color: #FF4c68;
+  text-align: center;
+  color: #fff;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.dog-images {
+  border-radius: 100%;
+  width: 10%;
+  margin-top: 1.0rem;
+}
+
+.testimonial-text {
+  margin: 20px;
+}
+
+/* Press */
+#press {
+  background-color: #FF4c68;
+  text-align: center;
+  padding-bottom: 1%;
+}
+
+.press-image {
+  width: 17%;
+  margin: 20px 20px 40px;
+}
+
+.testimonial-image {
+  border-radius: 100%;
+  width: 10%;
+  margin-top: 1.0rem;
+}
+
+.testimonial-image1 {
+  border-radius: 100%;
+  width: 10%;
+  margin-bottom: 1%;
+}
+
+/* Pricing */
+#pricing {
+  padding: 10%;
+  text-align: center;
+}
+
+.pricing-text {
+  padding: 3% 2%;
+}
+
+@media (max-width: 992px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    transform: rotate(0);
+    position: static;
+  }
+}
+
+/* Call to action */
+.call-to-action {
+  background-color: #ff4c68;
+  padding-top: 60px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.call-to-action-h3 {
+  color: #fff;
+  font-family: "Montserrat-Bold";
+  font-size: 3.5rem;
+}
+
+/* Footer */
+#footer {
+  background-color: #fff;
+  text-align: center;
+  padding-top: 5%;
+}
+
+.font-awesome {
+  padding-bottom: 1%;
+  margin: 0.5%;
+}
